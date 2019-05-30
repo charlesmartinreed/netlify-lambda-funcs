@@ -1,0 +1,15 @@
+{
+  "name": "serverless-lamdba-functions",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:charlesmartinreed/netlify-serverless-lamdba-funcs.git",
+  "author": "charlesmartinreed <charlesmartinreed@icloud.com>",
+  "license": "MIT",
+  "dependencies": {
+    "netlify-lambda": "^1.4.13"
+  },
+  "scripts": {
+    "lambda-serve": "netlify-lambda serve functions",
+    "lambda-build": "netlify-lambda build functions"
+  }
+}
