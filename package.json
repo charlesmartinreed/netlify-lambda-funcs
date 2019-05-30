@@ -6,7 +6,9 @@
   "author": "charlesmartinreed <charlesmartinreed@icloud.com>",
   "license": "MIT",
   "dependencies": {
-    "netlify-lambda": "^1.4.13"
+    "axios": "^0.19.0",
+    "netlify-lambda": "^1.4.13",
+    "node-fetch": "^2.6.0"
   },
   "scripts": {
     "lambda-serve": "netlify-lambda serve functions",
